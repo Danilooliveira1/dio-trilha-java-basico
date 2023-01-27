@@ -1,12 +1,14 @@
 public class TiposVariaveis {
     public static void main(String[] args) throws Exception {
 
+        String meuNome = "Danilo Oliveira";
         byte idade = 33;
         short ano = 2023;
         long cpf = 987554321109l;
         float pi = 3.14f;
         double salario = 1275.30;
 
+        System.out.println(meuNome);
         System.out.println(idade);
         System.out.println(ano);
         System.out.println(cpf);
